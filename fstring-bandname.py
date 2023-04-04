@@ -1,5 +1,5 @@
 # program to generate band name using City and animal name and use fstrings to get output
-print("Let us Find you bangin name for your band!!")
+print("Let us find you a bangin' name for your band!!")
 city_name = input("Enter the name of your city\n")
 animal_name = input("Enter the name of your favourite animal\n")
 print(

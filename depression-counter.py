@@ -1,9 +1,10 @@
 # This program calculates how much weeks you got left to live if you are lucky to live until the age of 90
 
 print(
-    "Do you want to find out how much time you got left if you live until 90 years old?"
+    "Do you want to find out how much time you got left if you live until your expected years old?"
 )
-age_in_years = int(input("Enter your current age"))
+expected_years = int(input("Enter your expected age "))
+age_in_years = int(input("Enter your current age "))
 weeks_left_user = (90 * 52) - (age_in_years * 52)
 days_left_user = (90 * 52 * 7) - (age_in_years * 52 * 7)
 months_left_user = (90 * 12) - (age_in_years * 12)

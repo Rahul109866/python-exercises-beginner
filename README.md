@@ -30,5 +30,7 @@ else:
 
 *str()-typecast str
 
-*random.randint(int a, int b)-produces random number between a and b provided a < b
+*$-$-$-import random-$-$-$  random.randint(int a, int b)-produces random number between a and b provided a < b
+
+*random.random(0.000,0.9999)- for float random numbers . you mulitply by the range i.e for 1-5 float number randomvariable*5
 

@@ -5,7 +5,7 @@ row3 = ["🧱","🧱","🧱"]
 map=[row1, row2, row3]
 print(f"{row1}\n{row2}\n{row3}")
 
-position=input("Enter your position to mark")
+position=input("Enter your position to mark: ")
 
 
 #extraction of user input into usable data

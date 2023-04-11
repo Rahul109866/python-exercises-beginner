@@ -67,6 +67,7 @@ scissors = """⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 print("Welcome to the Rock Paper Scissors tournament")
 player_choice = int(input("Type 1 for rock, 2 for paper and 3 for scissors\n"))
 options = [rock, paper, scissors]
+print(f"You chose:\n{options[player_choice-1]}")
 
 computer_choice = options[random.randint(0, 2)]
 
@@ -75,32 +76,26 @@ if player_choice >= 4 or player_choice < 0:
 
 else:
     if player_choice == 1 and computer_choice == options[1]:
-        print(f"You chose:\n{rock}")
         print(f"Computer chose {computer_choice}")
         print(" You lost sucka!!!")
 
     elif player_choice == 1 and computer_choice == options[2]:
-        print(f"You chose:\n{rock}")
         print(f"Computer chose {computer_choice}")
         print(" You win!!")
 
     elif player_choice == 2 and computer_choice == options[0]:
-        print(f"You chose:\n{paper}")
         print(f"Computer chose {computer_choice}")
         print(" You win!!")
 
     elif player_choice == 2 and computer_choice == options[2]:
-        print(f"You chose:\n{paper}")
         print(f"Computer chose {computer_choice}")
         print(" You lost sucka!!!")
 
     elif player_choice == 3 and computer_choice == options[0]:
-        print(f"You chose:\n{scissors}")
         print(f"Computer chose {computer_choice}")
         print(" You lost sucka!!!")
 
     elif player_choice == 3 and computer_choice == options[1]:
-        print(f"You chose:\n{scissors}")
         print(f"Computer chose {computer_choice}")
         print(" You win!!")
 

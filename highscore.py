@@ -3,11 +3,11 @@ for integers in range(0,len(student_scores)):
     student_scores[integers]=int(student_scores[integers])
     
     
-max=0
-for n in range(1,len(student_scores)):
-    if student_scores[n]<student_scores[n-1]:
-        student_scores[n]=student_scores[n-1]
+max=student_scores[0]
+for num in student_scores:
+    if num>max:
+        max=num
         
 
         
-print(student_scores[-1])
+print(f"The highest score is: {max}")

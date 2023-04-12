@@ -20,7 +20,7 @@ else:
 ---------------------------------------------------------------
 *print(" ")-print single line to display
 
-*print(''' ...... ''')-multiline print to dispplay
+*print(''' ...... ''')-multiline print to display
 
 *input("display statement")- get input 
 

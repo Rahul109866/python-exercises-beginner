@@ -10,6 +10,7 @@ These are all the programs and scripts and projects in the beginner section!
 *{:.2f}- format specifier in fstring than has accuracy of 2 decimal points
 
 *.format()-to format strings 
+
 ---------------------------------------------------------------
 *if:
 ....
@@ -17,7 +18,9 @@ elif:
 .....
 else:
 .....
+
 ---------------------------------------------------------------
+
 *print(" ")-print single line to display
 
 *print(''' ...... ''')-multiline print to display
@@ -35,8 +38,10 @@ else:
 *.extend("data")- adds the elements mentioned to the end of the list
 
 *append()-appends or attaches at the end of the list
+
 --------------------------------------------------------------
 --------------------------------------------------------------
+
 $-$-$-import random-$-$-$
 
 *random.randint(int a, int b)-produces random number between a and b provided a < b

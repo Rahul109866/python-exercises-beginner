@@ -7,5 +7,6 @@ c = a
 a = b
 b = c
 
-print("\nAfter the switch\n-> a : " + a + "\n-> b : " + b)
+# print("\nAfter the switch\n-> a : " + a + "\n-> b : " + b)
+print(f"\nAfter the switch\n-> a: {a}\n-> b: {b}")
 # print("b: "+ b)

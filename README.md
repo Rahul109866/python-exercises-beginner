@@ -3,52 +3,54 @@ This is a collection of all the python Exercises I've Completed!
 These are all the programs and scripts and projects in the beginner section!
 ---------------------------------------------------------------
 #These are the commands and keywords learnt and used:
-*.lower()-lowercase all
+*```.lower()```-lowercase all
 
-*.upper()-uppercase all
+*```.upper()```-uppercase all
 
-*{:.2f}- format specifier in fstring than has accuracy of 2 decimal points
+*```{:.2f}```- format specifier in fstring than has accuracy of 2 decimal points
 
-*.format()-to format strings 
+*```.format()```-to format strings 
 
 ---------------------------------------------------------------
+```
 *if:
 ....
 elif:
 .....
 else:
 .....
-
+```
 ---------------------------------------------------------------
 
-```*print(" ")```-print single line to display
 
-```*print(''' ...... ''')```-multiline print to display
+*```print(" ")```-print single line to display
 
-*input("display statement")- get input 
+*```print(''' ...... ''')```-multiline print to display
 
-*int()-typecast int
+*```input("display statement")```- get input 
 
-*float()-typecast float
+*```int()```-typecast int
 
-*str()-typecast str
+*```float()```-typecast float
 
-*len()- returns the size of a list
+*```str()```-typecast str
 
-*.extend("data")- adds the elements mentioned to the end of the list
+*```len()```- returns the size of a list
 
-*append()-appends or attaches at the end of the list
+*```.extend("data")```- adds the elements mentioned to the end of the list
+
+*```append()```-appends or attaches at the end of the list
 
 --------------------------------------------------------------
 --------------------------------------------------------------
 
-$-$-$-import random-$-$-$
+$-$-$-```import random```-$-$-$
 
-*random.randint(int a, int b)-produces random number between a and b provided a < b
+*```random.randint(int a, int b)```-produces random number between a and b provided a < b
 
-*random.random(0.000,0.9999)- for float random numbers . you mulitply by the range i.e for 1-5 float number randomvariable*5
+*```random.random(0.000,0.9999)```- for float random numbers . you mulitply by the range i.e for 1-5 float number randomvariable*5
 
-*choice()[***random module***]-random.choice(name) where name is a list it will pick a random element from the list
+*```choice()[***random module***]```-random.choice(name) where name is a list it will pick a random element from the list
 
 --------------------------------------------------------------
 --------------------------------------------------------------

@@ -21,9 +21,9 @@ else:
 
 ---------------------------------------------------------------
 
-*print(" ")-print single line to display
+```*print(" ")```-print single line to display
 
-*print(''' ...... ''')-multiline print to display
+```*print(''' ...... ''')```-multiline print to display
 
 *input("display statement")- get input 
 

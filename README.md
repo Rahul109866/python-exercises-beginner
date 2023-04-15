@@ -1,5 +1,5 @@
 # python-exercises-beginner
-##This is a collection of all the python Exercises I've Completed!
+##This is a collection of all the python Exercises I've Completed!##
 ##These are all the programs and scripts and projects in the beginner section!
 ---------------------------------------------------------------
 ###These are the commands and keywords learnt and used:

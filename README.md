@@ -1,8 +1,8 @@
 # python-exercises-beginner
-This is a collection of all the python Exercises I've Completed!
-These are all the programs and scripts and projects in the beginner section!
+##This is a collection of all the python Exercises I've Completed!
+##These are all the programs and scripts and projects in the beginner section!
 ---------------------------------------------------------------
-#These are the commands and keywords learnt and used:
+###These are the commands and keywords learnt and used:
 *```.lower()```-lowercase all
 
 *```.upper()```-uppercase all
@@ -14,6 +14,17 @@ These are all the programs and scripts and projects in the beginner section!
 ```"".join(list)```- prints a list as a string. *list elements must be a string. so if not convert each to string first using ```str(i) for i in list``` for eg*
 
 you can concatenate lists using ```+``` operator .
+
+###Empty variable declarations
+
+```my_string = ""
+
+my_string += "Hello"
+
+my_string += " World"
+
+print(my_string)  # Output: "Hello World"```
+
 
 ---------------------------------------------------------------
 ```

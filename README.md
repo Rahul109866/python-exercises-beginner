@@ -1,8 +1,8 @@
 # python-exercises-beginner
-This is a collection of all the python Exercises I've Completed!
-These are all the programs and scripts and projects in the beginner section!
+## This is a collection of all the python Exercises I've Completed!
+## These are all the programs and scripts and projects in the beginner section!
 ---------------------------------------------------------------
-## These are the commands and keywords learnt and used:
+### These are the commands and keywords learnt and used:
 *```.lower()```-lowercase all
 
 *```.upper()```-uppercase all
@@ -15,15 +15,18 @@ These are all the programs and scripts and projects in the beginner section!
 
 you can concatenate lists using ```+``` operator .
 
-###Empty variable declarations
+### Empty variable declarations
 
-```my_string = ""
+```empty_list = []
 
-my_string += "Hello"
+empty_string = ""
 
-my_string += " World"
+empty_dict = {}
 
-print(my_string)  # Output: "Hello World"```
+empty_set = set()
+
+empty_tuple = ()
+```
 
 
 ---------------------------------------------------------------

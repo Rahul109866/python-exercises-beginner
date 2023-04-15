@@ -54,7 +54,7 @@ $-$-$-```import random```-$-$-$
 
 ```random.random(0.000,0.9999)```- for float random numbers . you mulitply by the range i.e for 1-5 float number randomvariable*5
 
-```choice()[***random module***]```-random.choice(name) where name is a list it will pick a random element from the list
+```random.choice(list)```- will pick a random element from the list
 
 ```random.sample(list)```-creates a new list and with shuffled elements
 

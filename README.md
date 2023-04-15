@@ -56,7 +56,7 @@ $-$-$-```import random```-$-$-$
 
 ```random.choice(list)```- will pick a random element from the list
 
-```random.sample(list)```-creates a new list and with shuffled elements
+```random.sample(list, number of elements in new list)```-creates a new list and with shuffled elements
 
 ```random.shuffle(list)```-shuffles the list in place i.e. *original list is overwritten by new list*
 

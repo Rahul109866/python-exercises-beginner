@@ -11,6 +11,10 @@ These are all the programs and scripts and projects in the beginner section!
 
 *```.format()```-to format strings 
 
+```"".join(list)```- prints a list as a string. *list elements must be a string. so if not convert each to string first using ```str(i) for i in list``` for eg*
+
+you can concatenate lists using ```+``` operator .
+
 ---------------------------------------------------------------
 ```
 *if:
@@ -46,11 +50,15 @@ else:
 
 $-$-$-```import random```-$-$-$
 
-*```random.randint(int a, int b)```-produces random number between a and b provided a < b
+```random.randint(int a, int b)```-produces random number between a and b provided a < b
 
-*```random.random(0.000,0.9999)```- for float random numbers . you mulitply by the range i.e for 1-5 float number randomvariable*5
+```random.random(0.000,0.9999)```- for float random numbers . you mulitply by the range i.e for 1-5 float number randomvariable*5
 
-*```choice()[***random module***]```-random.choice(name) where name is a list it will pick a random element from the list
+```random.choice(list)```- will pick a random element from the list
+
+```random.sample(list, number of elements in new list)```-creates a new list and with shuffled elements
+
+```random.shuffle(list)```-shuffles the list in place i.e. *original list is overwritten by new list*
 
 --------------------------------------------------------------
 --------------------------------------------------------------

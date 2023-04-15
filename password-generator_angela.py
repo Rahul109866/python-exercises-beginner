@@ -56,13 +56,13 @@ letters = [
 ]
 numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 symbols = ["!", "#", "$", "%", "&", "(", ")", "*", "+"]
-
+# get how many preferred charecter sets in the password from user
 letters_input = int(input("How many letters do you want:\n"))
 numbers_input = int(input("How many numbers do you want:\n"))
 symbols_input = int(input("HOw many symbols do you want:\n"))
 
 # easy version
-
+# in this version just get random letters from each list and print them together. easier to crack
 """password = ""
 
 for a in range(1, letters_input + 1):
@@ -78,9 +78,10 @@ print(password)"""
 
 
 # hard version
+# in this method, get the required random chars from each set as a list and then randomize the list and print
 
 password_list = []
-# using addition operator
+# -----> method 1:using addition operator
 """for a in range(1, letters_input + 1):
     password_list += random.choice(letters)
 
@@ -91,7 +92,8 @@ for c in range(1, symbols_input + 1):
     password_list += random.choice(symbols)"""
 
 
-# using .append() function
+# ----->method 2:  using .append() function
+# in this we just append the resulting random charecter to the password list
 for a in range(1, letters_input + 1):
     password_list.append(random.choice(letters))
 
@@ -101,14 +103,16 @@ for b in range(1, numbers_input + 1):
 for c in range(1, symbols_input + 1):
     password_list.append(random.choice(symbols))
 
-random.shuffle(password_list)
+random.shuffle(password_list)  # shuffles the elements of list in place
 print(password_list)
 
+# print list as string:
+# ----->method 1: use for loops to get each char from list and add it to string variable
 """password = ""
 
 for char in password_list:
     password += char
 """
-
+# ----->method 2;use .join function to convert list to string
 password = "".join(password_list)
 print(f"Your password is: {password}")

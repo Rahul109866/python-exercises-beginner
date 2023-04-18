@@ -42,7 +42,7 @@ letters = [
     "M",
     "N",
     "O",
-    "P",
+    "a",
     "Q",
     "R",
     "S",
@@ -116,3 +116,31 @@ for char in password_list:
 # ----->method 2;use .join function to convert list to string
 password = "".join(password_list)
 print(f"Your password is: {password}")
+
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+# def forward:
+# move()
+
+
+def jump():
+    if wall_in_front():
+        turn_left()
+        move()
+        turn_right()
+        move()
+        turn_right()
+        move()
+        turn_left()
+
+    else:
+        move()
+
+
+while not at_goal():
+    jump()
